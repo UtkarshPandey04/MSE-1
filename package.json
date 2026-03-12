@@ -1,0 +1,28 @@
+{
+  "name": "inventory-api",
+  "version": "1.0.0",
+  "description": "Retail store inventory management backend (Express + MongoDB).",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "lint": "echo \"No linter configured\""
+  },
+  "keywords": [
+    "inventory",
+    "express",
+    "mongodb",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

@@ -38,19 +38,7 @@ The API serves at `http://localhost:5000` by default and exposes routes under `/
 - reorderLevel > 0
 - status defaults to `Available`
 
-## Render Deployment (connects to GitHub)
-1) Push this folder to a new GitHub repo.
-2) In Render dashboard: **New +** → **Web Service** → connect the repo.
-3) Select branch, set:
-   - Build command: `npm install`
-   - Start command: `npm start`
-   - Environment: Node
-4) Add environment variables:
-   - `MONGO_URI` (Atlas connection string recommended)
-   - `PORT` (optional, Render provides `PORT` automatically)
-5) Deploy. Render will install dependencies and run `npm start`.
 
-> Note: This environment is offline, so actual GitHub/Render deployment cannot be performed here. Follow the steps above on your machine.
 
 ## Project Structure
 ```

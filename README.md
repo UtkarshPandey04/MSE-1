@@ -10,6 +10,7 @@ Node.js + Express + MongoDB backend for managing retail store products (add/view
 ## Getting Started
 1) Install dependencies  
 `npm install`
+&&
 
 2) Copy environment template and fill values  
 `cp .env.example .env`  
